@@ -1,0 +1,10 @@
+.process_com_ab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+}
+.process_com_ab:hover{
+    transform: scale3d(1.2,1.2,1.2);
+}

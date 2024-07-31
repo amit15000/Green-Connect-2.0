@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    height: 100vh;
+    background-image: url("./assets/about_main.jpg");
+    background-size: cover;
+}
+.main_ab{
+    margin: auto;
+    text-align: center;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.main_ab h1{
+    font-weight: 800;
+    width: 40vw;
+    font-size: 4vw;
+}
+.main_ab h2{
+    font-weight: 700;
+    font-size: 2vw;
+}
+.link_ab{
+    background-color: brown;
+    color: white;
+    margin-top: 10vh;
+    padding: 1.5vh 4vh 1.5vh 4vh;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s background-color ease-in-out;
+}
+.link_ab:hover{
+    background-color: green;
+    color: antiquewhite;
+}
+.custom-color-hover {
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
+  .custom-color-hover:hover {
+    color: #046309; /* Slightly darker shade */
+    cursor: pointer;
+  }
+.ourvision_ab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10vh;
+}
+.ourvision_ab h1{
+    font-weight: 600;
+    font-size: 3vw;
+}
+.ourvision_ab p{
+    font-size: 1.5vw;
+}
+.wanttohelp_ab{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    padding: 7vh 10vh 10vh 10vh;
+    background-image: url("./assets/about_vision.jpg");
+    background-size: cover;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.wanttohelp_ab h2{
+ color: white;
+ font-weight: 800;
+ font-size: 1.7vw;
+}
+.link_ab2{
+    color: black;
+    background-color: white;
+    font-size: 1vw;
+}
+.ov1_parent{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+.ov1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+.ov1::before{
+    content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(0, 197, 82), transparent);
+  transition: height 1s ease;
+  z-index: 1;
+}
+.ov1:hover::before {
+    height: 0;
+  }
+  
+.text-overlay_ab {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    z-index: 2;
+  }
+  
+.ov1:hover{
+    /* transform: scale3d(1.2,1.2,1.1); */
+    background-color: rgb(7, 241, 7);
+}
+.ov1 span{
+    font-weight: 600;
+    font-size: 2vw;
+}
+.process_ab{
+    height: 70vh;
+    background-image: url("./assets/tree_plantation.jpg");
+    background-size: cover;
+    margin: 0 10vh 0 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.process_ab h1{
+    font-weight: 700;
+    font-size: 4vw;
+    color: white;
+    margin: auto;
+}
+.process_ab_2{
+    display: flex;
+    padding: 5vh 10vh 5vh 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 248, 248);
+    flex-wrap: wrap;
+    gap: 6vw;
+}
